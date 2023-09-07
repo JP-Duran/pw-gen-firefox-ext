@@ -1,0 +1,114 @@
+html {
+  width: 350px;
+}
+
+body {
+    width: 350px;
+    background-color: #a4a4a4;
+}
+
+.hidden {
+    display: none;
+}
+
+.button_large {
+    background-color: #8d8d8d;
+    border: 2px solid #e7e7e7;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 2px 2px 2px rgba(54, 54, 54, 0.162), 0 1px 3px rgba(54, 54, 54, 0.162) inset;
+  }
+
+  .button_large:hover {
+    background-color: #0060DF;
+  }
+
+  .button_small {
+    background-color: #8d8d8d;
+    border: 2px solid #e7e7e7;
+    color: #ffffff;
+    padding: 4px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 2px 2px 2px rgba(54, 54, 54, 0.162), 0 1px 3px rgba(54, 54, 54, 0.162) inset;
+  }
+
+  .button_small:hover {
+    background-color: #0060DF;
+  }
+  
+  button[type="reset"] {
+    background-color: #8d8d8d;
+  }
+
+  button[type="reset"]:hover {
+    background-color: #0060DF;
+  }
+
+  .button_container {
+    margin: auto;
+  }
+
+  .spaced_button_container {
+      display:flex;
+      justify-content: space-evenly;
+  }
+
+  .slider {
+    display:flex;
+    justify-content: center;
+  }
+
+  .slidertext {
+    padding-left: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .checkbox_labels {
+    color: white;
+    padding-block: 5px;
+  }
+
+  fieldset div {
+    display: inline-block;
+    width: 50%;
+  }
+
+  fieldset div:nth-child(odd) {
+    float:left;
+  }
+
+  fieldset div:nth-child(even) {
+    float: right;
+  }
+
+  .form {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .inputbox {
+    margin-top: 15px;
+    margin-left: 5px;
+    padding-block: 3px;
+    padding-left: 5px;
+    font-size: 16px;
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    color:#0060DF;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  }
+
+

@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Password Generator",
+    "version": "1.0",
+
+    "description": "Simple password generator that includes a toolbar interface",
+    "homepage_url": "https://github.com/JP-Duran",
+    "icons": {
+        "48": "icons/icon48.png",
+        "96": "icons/icon96.png"
+    },
+
+    "browser_action": {
+        "default_icon": "icons/icon48.png",
+        "default_title": "Password Generator",
+        "default_popup": "popup/generator.html"
+    },
+
+    "permissions": ["storage", "tabs"],
+
+    "applications": {
+        "gecko": {
+            "strict_min_version": "54.0a1",
+            "id": "ce5b23626517576a1c69ee77cd8f57ec41e1a4b9@temporary-addon"
+        }
+    }
+}
